@@ -83,7 +83,7 @@ cd Python-3.11*/
 ```
 配置构建
 ```shell
-LDFLAGS="${LDFLAGS} -Wl,-rpath=/usr/local/openssl/lib" ./configure --with-openssl=/usr/local/openssl
+LDFLAGS="${LDFLAGS} -Wl,-rpath=/usr/local/openssl-1.1.1/lib" ./configure --with-openssl=/usr/local/openssl-1.1.1
 make
 ```
 安装编译
